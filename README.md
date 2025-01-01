@@ -62,6 +62,8 @@
   - Bu ekran bizim csv klasörümüz altında bulunan depo.csv dosyasına ürün eklememizi sağlamakta. Buraya yazılan bilgiler id,ad,stok,fiyat,kategori tarzındaki bir formatta depolanır. Aynı isimde ürün eklenmesine izin verilmez.
 - Başarı Ekranı
   - Ürün ekleme gibi bazı işlemlerin başarılı olması sonucunda bilgi veren ve başarıyı gösteren bir ekran bizi karşılar
+- Ürün Listeleme
+  - depo.csv dosyamızdaki ürünlerimizin hepsini ekrana listeler.
 
 ## Bilinmesi Gerekenler
 - Program ilk başlatıldığında dosyaları otomatik olarak oluşturacaktır. Bu süreçte hiçbir kullanıcı sisteme henüz kayıtlı olmayacağından dolayı sisteme giriş yapılamayacaktı. Bu durumu engelleme amaçlı kod içerisinde tanımlı, kullanıcı adı ve şifresi "admin" olan özel hesapla sisteme giriş yapabilirsiniz.
