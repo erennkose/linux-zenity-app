@@ -97,7 +97,7 @@
       - <img src="readme-pics/update_user1.png" width="300"> <img src="readme-pics/update_user2.png" width="300">
       - Bu seçenek seçildiğinde önce güncellenecek hesabın kullanıcı adı istenir. Sonrasında ise gelen formda güncellenmesi istenen kısımlar doldurulur. Boş kalan kısımlar eski halinde kalır. İşlem tamamlanırken bu işlemin gerçekleşmesini isteyip istemediğimizi emin olmak için sistem bize sorar. Onay verilirse güncelleme işlemi tamamlanmış olur.
     - Kullanıcı Sil
-      - <img src="readme-pics/del_user1.png" width="300"> <img src="readme-pics/del_user2.png" width="300"> <img src="readme-pics/del_user3.png" width="300">
+      - <img src="readme-pics/del_user1.png" width="300"> <img src="readme-pics/del_user2.png" width="300">
       - Bu seçenek seçildiğinde bize iki seçenek sunar. ID ile mi silmek istiyoruz yoksa kullanıcı adı ile mi silmek istiyoruz bunu belirleriz. Belirleyip seçeneği seçtikten sonra ise istenen bilgiyi gireriz. Bu işlem geri alınamayacak bir işlem olduğu için sistem bize emin olup olmadığımızı sorar. Onay verdiğimizde ise işlem gerçekleşir ve kullanıcı silinir.
     - Hesap Kilidi Aç
       - <img src="readme-pics/acc_unlock1.png" width="300">
