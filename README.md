@@ -64,6 +64,22 @@
   - Ürün ekleme gibi bazı işlemlerin başarılı olması sonucunda bilgi veren ve başarıyı gösteren bir ekran bizi karşılar
 - Ürün Listeleme
   - depo.csv dosyamızdaki ürünlerimizin hepsini ekrana listeler.
+- Ürün Güncelleme
+  - İlk ekranda güncellemek istediğimiz ürünün adı girilir. Sonrasında ise ikinci ekran bizi karşılar. Burada istenen güncellemeler yapılır. Boş bırakılan kısımlar için eski bilgiler korunur. Onay verildiğinde ise depo.csv dosyasında gerekli güncellemeler yapılır.
+- Ürün Silme
+  - İlk ekranda silinecek ürünü neye göre sileceğimiz istenir. Burada seçilen seçeneğe göre ikinci ekrandan alınan bilgi doğrultusunda depo.csv dosyası içinde bu veri aranır. Silme işlemi geri alınamaz bir işlem olduğundan dolayı sistem emin olup olmadığınızı doğrular. Silme işlemi başarılı olunca başarılı olduğunu belirten bir mesaj yazılır.
+- Kullanıcı Yönetimi
+  - Bu seçenek seçildiğinde bizi kullanıcı yönetim menüsü karşılar. Burada yapılamk istenen işleme göre seçenek seçilir.
+    - Kullanıcı Ekle
+      - ekle
+    - Kullanıcıları Listele
+      - liste
+    - Kullanıcı Güncelle
+      - güncelle
+    - Kullanıcı Sil
+      - sil
+    - Hesap Kilidi Aç
+      - kilit aç
 
 ## Bilinmesi Gerekenler
 - Program ilk başlatıldığında dosyaları otomatik olarak oluşturacaktır. Bu süreçte hiçbir kullanıcı sisteme henüz kayıtlı olmayacağından dolayı sisteme giriş yapılamayacaktı. Bu durumu engelleme amaçlı kod içerisinde tanımlı, kullanıcı adı ve şifresi "admin" olan özel hesapla sisteme giriş yapabilirsiniz.
