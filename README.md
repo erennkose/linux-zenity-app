@@ -76,7 +76,14 @@
   - <img src="readme-pics/del_prod1.png" width="300"> <img src="readme-pics/del_prod2.png" width="300">
   - İlk ekranda silinecek ürünü neye göre sileceğimiz istenir. Burada seçilen seçeneğe göre ikinci ekrandan alınan bilgi doğrultusunda depo.csv dosyası içinde bu veri aranır. Silme işlemi geri alınamaz bir işlem olduğundan dolayı sistem emin olup olmadığınızı doğrular. Silme işlemi başarılı olunca başarılı olduğunu belirten bir mesaj yazılır.
 - Rapor Al
-  - Rapor
+  - <img src="readme-pics/report1.png" width="300">
+  - Bu seçenek seçildiğinde, bizi raporlama menüsü karşılar. Burada yapılamk istenen işleme göre seçenek seçilir.
+    - Stokta Az Kalan Ürünler
+      - <img src="readme-pics/report2.png" width="400">
+      - Burada depo.csv içerisindeki stokta sayı olarak 50'nin altına düşmüş ürünler ekrana yazdırılır.
+    - En Yüksek Stok Miktarına Sahip Ürün
+      - <img src="readme-pics/report3.png" width="300">
+      - Burada depo.csv içerisindeki ürünlerden stokta en fazla bulunan ekrana yazdırılır.
 - Kullanıcı Yönetimi
   - <img src="readme-pics/user_mng.png" width="300">
   - Bu seçenek seçildiğinde bizi kullanıcı yönetim menüsü karşılar. Burada yapılamk istenen işleme göre seçenek seçilir.
