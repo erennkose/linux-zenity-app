@@ -71,15 +71,22 @@
 - Kullanıcı Yönetimi
   - Bu seçenek seçildiğinde bizi kullanıcı yönetim menüsü karşılar. Burada yapılamk istenen işleme göre seçenek seçilir.
     - Kullanıcı Ekle
-      - ekle
+      - Bu işlem sistemimize hesap eklememizi sağlar. İstenen bilgiler önümüze gelen ekrana girilir. Rol kısmı "admin" veya "user" olmak zorundadır. Bilgiler istenildiği gibi girildikten sonra ekleme başarılı olursa bu kullanıcıya bilgi verilir.
     - Kullanıcıları Listele
-      - liste
+      - Bu seçenek seçildiğinde kullanici.csv dosyasında kayıtlı tutulan kullanıcılar ekrana yazdırılır.
     - Kullanıcı Güncelle
-      - güncelle
+      - Bu seçenek seçildiğinde önce güncellenecek hesabın kullanıcı adı istenir. Sonrasında ise gelen formda güncellenmesi istenen kısımlar doldurulur. Boş kalan kısımlar eski halinde kalır. İşlem tamamlanırken bu işlemin gerçekleşmesini isteyip istemediğimizi emin olmak için sistem bize sorar. Onay verilirse güncelleme işlemi tamamlanmış olur.
     - Kullanıcı Sil
-      - sil
+      - Bu seçenek seçildiğinde bize iki seçenek sunar. ID ile mi silmek istiyoruz yoksa kullanıcı adı ile mi silmek istiyoruz bunu belirleriz. Belirleyip seçeneği seçtikten sonra ise istenen bilgiyi gireriz. Bu işlem geri alınamayacak bir işlem olduğu için sistem bize emin olup olmadığımızı sorar. Onay verdiğimizde ise işlem gerçekleşir ve kullanıcı silinir.
     - Hesap Kilidi Aç
-      - kilit aç
+      - Bu seçenek, eğer bir hesaba 3 kez başarısız giriş denemesi yapıldıysa kilitlnen hesabın kilidini açmamızı sağlar. Gelen girdi kısmına kildini açmak istediğimiz hesabın kullanıcı adını girmemiz gerekir. Giriş sonrasında hesap kilitliyse kilidi açılır.
+- Program Yönetimi
+  - Diskte Kaplanan Alan
+    - Bu seçenek, bizim sistemimizin ve sistemde kullanılan csv dosyalarının kapladığı boyutu belirten bir ekran belirtir.
+  - Diske Yedek Alma
+    - Bu seçenek, yöneticinin istemesi durumunda dosyaları hard link yoluyla yedeklemeyi sağlar.
+  - Hata Kayıtlarını Görüntüleme
+    - Bu seçenek ile log.csv dosyamızdaki hata kayıtları bir ekran aracılığıyla gösterilir.
 
 ## Bilinmesi Gerekenler
 - Program ilk başlatıldığında dosyaları otomatik olarak oluşturacaktır. Bu süreçte hiçbir kullanıcı sisteme henüz kayıtlı olmayacağından dolayı sisteme giriş yapılamayacaktı. Bu durumu engelleme amaçlı kod içerisinde tanımlı, kullanıcı adı ve şifresi "admin" olan özel hesapla sisteme giriş yapabilirsiniz.
