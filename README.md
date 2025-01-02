@@ -106,7 +106,7 @@
       <img src="readme-pics/disc_backup3.png" width="300"> <img src="readme-pics/disc_backup4.png" width="300">
       - Bu seçenek, yöneticinin istemesi durumunda dosyaları hard link yoluyla yedeklemeyi sağlar.
     - Hata Kayıtlarını Görüntüleme
-      - <img src="readme-pics/log_show.png" width="300">
+      - <img src="readme-pics/log_show.png" width="600">
       - Bu seçenek ile log.csv dosyamızdaki hata kayıtları bir ekran aracılığıyla gösterilir.
 
 ## Bilinmesi Gerekenler
