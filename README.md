@@ -4,7 +4,7 @@
 - Zenity araçlarını kullanarak, ürün ekleme, listeleme, güncelleme ve silme vb. işlemlerini destekleyen, kullanıcı dostu bir grafik arayüz sağlayan basit bir envanter yönetim sistemi.
 
 ## Youtube Tanıtım Videosu Linki
-<a href="https://www.youtube.com/c/https://www.youtube.com/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/" height="30" width="40" /></a> https://www.youtube.com/
+<a href="https://youtu.be/CdQimTn2Q0E" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://youtu.be/CdQimTn2Q0E" height="30" width="40" /></a> [Youtube Tanıtım Videosu](https://youtu.be/CdQimTn2Q0E)
 
 ## Fonksiyonlar
 
