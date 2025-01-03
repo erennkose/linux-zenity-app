@@ -31,31 +31,6 @@
     - Hata Kayıtlarını Göster (log.csv)
   - Çıkış
 
-## Arayüz Ekranları
-- Giriş
-  - Kullanıcı Adı ve Parola
-- Ürün Ekle
-  - Ürün Numarası, Ürün Adı, Stok Miktarı, Birim Fiyatı, Kategori
-- Ürün Listele
-  - Ürün Numarası, Ürün Adı, Stok Miktarı, Birim Fiyatı, Kategori
-- Ürün Güncelle
-  - Ürün Adı, Stok Miktarı, Birim Fiyatı, Kategori
-- Ürün Sil
-  - Ürün Numarası veya Ürün Adı
-- Rapor Al
-  - Stokta Azalan Ürünler
-  -  En Yüksek Stok Miktarına
-- Kullanıcı Yönetimi
-  - Yeni Kullanıcı Ekle (No, Adı, Soyadı, Rol, MD5 Parola)
-  -  Kullanıcıları Listele
-  -  Kullanıcı Güncelle (Adı, Soyadı, Rol, Parola)
-  -  Kullanıcı Sil
-- Program Yönetimi
-  - Diskte Kapladığı Alan Gösterimi
-  -  Diske Yedek Alma
-  -   Hata Kayıtlarını Görüntüleme
-- Çıkış
-
 ## Ekran Görüntülü Sistem Anlatımı
 - Giriş Ekranı
   - <img src="readme-pics/giris.png" width="300">
@@ -66,9 +41,6 @@
 - Ürün Ekle
   - <img src="readme-pics/add_prod.png" width="300">
   - Bu ekran bizim csv klasörümüz altında bulunan depo.csv dosyasına ürün eklememizi sağlamakta. Buraya yazılan bilgiler id,ad,stok,fiyat,kategori tarzındaki bir formatta depolanır. Aynı isimde ürün eklenmesine izin verilmez.
-- Başarı Ekranı
-  - <img src="readme-pics/add_prod_ok.png" width="300">
-  - Ürün ekleme gibi bazı işlemlerin başarılı olması sonucunda bilgi veren ve başarıyı gösteren bir ekran bizi karşılar
 - Ürün Listeleme
   - <img src="readme-pics/list_prod.png" width="600">
   - depo.csv dosyamızdaki ürünlerimizin hepsini ekrana listeler.
@@ -118,6 +90,12 @@
     - Hata Kayıtlarını Görüntüleme
       - <img src="readme-pics/log_show.png" width="600">
       - Bu seçenek ile log.csv dosyamızdaki hata kayıtları bir ekran aracılığıyla gösterilir.
+- Başarı Ekranı
+  - <img src="readme-pics/add_prod_ok.png" width="300">
+  - Ürün ekleme gibi bazı işlemlerin başarılı olması sonucunda bilgi veren ve başarıyı gösteren bir ekran bizi karşılar
+- Çıkış Onay Ekranı
+  - <img src="readme-pics/exit_question.png" width="300">
+  - Sistemden çıkış yapılırken çıkış istemi doğrulanır.
 
 ## Bilinmesi Gerekenler
 - Program ilk başlatıldığında dosyaları otomatik olarak oluşturacaktır. Bu süreçte hiçbir kullanıcı sisteme henüz kayıtlı olmayacağından dolayı sisteme giriş yapılamayacaktı. Bu durumu engelleme amaçlı kod içerisinde tanımlı, kullanıcı adı ve şifresi "admin" olan özel hesapla sisteme giriş yapabilirsiniz.
