@@ -6,6 +6,9 @@
 ## Youtube Tanıtım Videosu Linki
 <a href="https://youtu.be/CdQimTn2Q0E" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://youtu.be/CdQimTn2Q0E" height="30" width="40" /></a> [Youtube Tanıtım Videosu](https://youtu.be/CdQimTn2Q0E)
 
+## Github Reposu Linki
+<a href="https://github.com/erennkose/linux-zenity-app" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="https://github.com/erennkose/linux-zenity-app" height="30" width="40" /></a> [Github Reposu](https://github.com/erennkose/linux-zenity-app)
+
 ## Fonksiyonlar
 
 - Kullanıcı Rolleri
